@@ -35,8 +35,14 @@
 | Beam-search | 15 | 4 | 0.0001 | 7.94 |
 | Beam-search | 25 | 4 | 0.0001 | 17.83 |
 | Beam-search | 50 | 16 | 0.0001 | 28.74 |
-| Beam-search | 50 | 8 | 0.0001 | 40.61 |
+| Beam-search | 50 | 8 | 0.0001 | 44.61 |
 ### 与其他算法效果对比
-| 哈佛 | ours |
+| model | attention | BLEU |
 | :------: | :------: |
-| 73.97 | 40.61 |
+| INFTY | n/a | 51.20 |
+| CTC | n/a | 39.20 |
+| CAPTION | standard | 52.53 |
+| Harvard | standard | 58.41 |
+| Harvard | coarse-only | 53.40 |
+| Harvard | hieraachical | 60.32 |
+| ours | standard | 44.61 |
